@@ -1,0 +1,26 @@
+{
+  "name": "unified-code-mods",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "## API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^9.2.1",
+    "rehype-parse": "^8.0.4",
+    "rehype-stringify": "^9.0.3",
+    "remark-html": "^15.0.1",
+    "remark-parse": "^10.0.1",
+    "unified": "^10.1.1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.6.0",
+    "typescript": "^4.6.2"
+  }
+}
