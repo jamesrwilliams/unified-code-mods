@@ -3,7 +3,7 @@ import {unified} from "unified";
 import rehypeParse from "rehype-parse";
 import rehypeReact from 'rehype-react';
 
-const parseHtml = async (doc) => {
+const html = async (input) => {
   const file = await unified()
     .use(rehypeParse, {
       emitParseErrors: true,
@@ -11,9 +11,9 @@ const parseHtml = async (doc) => {
       verbose: true,
     })
     .use(rehypeReact, { createElement, Fragment })
-    .process(doc);
+    .process(input);
 
   return String(file);
 }
 
-export default parseHtml;
+export default html;
