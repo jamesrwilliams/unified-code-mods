@@ -13,8 +13,9 @@
   "dependencies": {
     "chai": "^4.3.6",
     "mocha": "^9.2.1",
+    "react": "^17.0.2",
     "rehype-parse": "^8.0.4",
-    "rehype-stringify": "^9.0.3",
+    "rehype-react": "^7.0.4",
     "remark-html": "^15.0.1",
     "remark-parse": "^10.0.1",
     "unified": "^10.1.1"

@@ -9,11 +9,11 @@ modifications.
 
 ### Example migrations:
 
-- Create / Update / Delete JSON Keys and values
-- Renaming of certain API variables
-- CSS class name updates / removals
-- Updates to HTML elements and attributes 
-
+| Input Type | Targets                      | Operations           |
+|------------|------------------------------|----------------------|
+| HTML       | Elements                     | rename               |
+| HTML       | Attributes (keys and values) | create/rename/update |
+| JSON       | Keys and values              | create/rename/update |
 
 ## API
 
