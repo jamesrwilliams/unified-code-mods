@@ -9,7 +9,18 @@ library. For example a new major version introduces changes to how a user needs 
 HTML, CSS and JS, this project aims to facilitate the automatic application of these 
 modifications.
 
-### Roadmap
+## Rationale
+
+This project was born out of an idea to support the following (niche) scenario 
+
+- You develop an in-house front-end API library
+- This library has hundreds of unique HTML/CSS/JS projects that use it
+- Breaking change in API library typically requires manual migration of each unique consumer 
+  project
+- This project aims to provide a way to encapsulate code modifications for them to be played 
+  back over different consumer projects to mass upgrade between breaking changes.
+
+# Roadmap
 
 - HTML
   - Elements
