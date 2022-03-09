@@ -1,6 +1,6 @@
 {
   "name": "unified-code-mods",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "type": "module",
   "description": "## API",
   "main": "app.js",
