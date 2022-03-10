@@ -20,6 +20,9 @@ This project was born out of an idea to support the following (niche) scenario
 - This project aims to provide a way to encapsulate code modifications for them to be played 
   back over different consumer projects to mass upgrade between breaking changes.
 
+If you're looking for a Javascript/Typescript focused modification library I recommend you take a 
+look at [jscodeshift](https://github.com/facebook/jscodeshift).
+
 # Roadmap
 
 - HTML
@@ -36,7 +39,7 @@ This project was born out of an idea to support the following (niche) scenario
 
 ## Modification API
 
-TBC
+Approach is documented in this [discussion](https://github.com/jamesrwilliams/unified-code-mods/discussions/1).
 
 ## See also
 

@@ -2,10 +2,9 @@
   "name": "unified-code-mods",
   "version": "0.0.0",
   "type": "module",
-  "description": "## API",
-  "main": "app.js",
+  "description": "",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --recursive"
   },
   "keywords": [],
   "author": "",
