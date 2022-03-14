@@ -39,6 +39,13 @@ describe('Modifiers - HTML - Attributes', function () {
 
         expect(attributeModifier(startingNode, 'UPDATE', 'class', 'foo', 'bar')).to.eql(expectedNode);
       });
+
+      it('should UPDATE the "class" to "className" when used as a key (variable length)', async function () {
+        const startingNode = await toNode(`<div class="foo" />`);
+        const expectedNode = await toNode('<div class="supercalifragilisticexpialidocious" />')
+
+        expect(attributeModifier(startingNode, 'UPDATE', 'class', 'foo', 'supercalifragilisticexpialidocious')).to.eql(expectedNode);
+      });
     });
 
     describe('Data Attributes (Objects)', () => {
@@ -80,7 +87,14 @@ describe('Modifiers - HTML - Attributes', function () {
   });
 
   describe('Actions: CREATE', () => {
-    it.skip('should create a class attribute on an element', () => {});
+
+    it('should create a class attribute on an element (net new)', async function () {
+      debugger;
+      const startingNode = await toNode(`<div />`);
+      const expectedNode = await toNode('<div class="foo" />')
+
+      expect(attributeModifier(startingNode, 'CREATE', 'class', '', 'foo')).to.eql(expectedNode);
+    });
     it.skip('should create a data-attribute on an element', () => {});
     it.skip('should create a misc html attribute on an element', () => {});
     it.skip('should handle collisions gracefully', () => {})

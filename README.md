@@ -2,6 +2,9 @@
 
 [![Project Status: Concept – Minimal or no implementation has been done yet, or the repository is only intended to be a limited example, demo, or proof-of-concept.](https://www.repostatus.org/badges/latest/concept.svg)](https://www.repostatus.org/#concept)
 
+- [Roadmap](https://github.com/jamesrwilliams/unified-code-mods/projects/1)
+- [API Discussion](https://github.com/jamesrwilliams/unified-code-mods/discussions/1)
+
 # Goal
 
 Automatically apply code-mods to source code to make it compatible with a newer version of a 
@@ -23,25 +26,8 @@ This project was born out of an idea to support the following (niche) scenario
 If you're looking for a Javascript/Typescript focused modification library I recommend you take a 
 look at [jscodeshift](https://github.com/facebook/jscodeshift).
 
-# Roadmap
-
-- HTML
-  - Elements
-    - rename - Planned
-  - Attributes
-    - Create - Planned
-    - Update - In Progress
-    - Delete - Planned
-- JSON (key value pairs)
-  - Create - Planned
-  - Rename - Planned
-  - Update - Planned
-
-## Modification API
-
-Approach is documented in this [discussion](https://github.com/jamesrwilliams/unified-code-mods/discussions/1).
-
 ## See also
 
 - https://github.com/syntax-tree/unist-util-select - Select nodes based on css like selectors 
   (with limitations)
+- https://unifiedjs.com/
