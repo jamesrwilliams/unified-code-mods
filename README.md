@@ -2,6 +2,9 @@
 
 [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip) [![Test](https://github.com/jamesrwilliams/unified-code-mods/actions/workflows/node.js.yml/badge.svg)](https://github.com/jamesrwilliams/unified-code-mods/actions/workflows/node.js.yml)
 
+- [Roadmap](https://github.com/jamesrwilliams/unified-code-mods/projects/1)
+- [API Discussion](https://github.com/jamesrwilliams/unified-code-mods/discussions/1)
+
 # Goal
 
 Automatically apply code-mods to source code to make it compatible with a newer version of a 
@@ -20,25 +23,11 @@ This project was born out of an idea to support the following (niche) scenario
 - This project aims to provide a way to encapsulate code modifications for them to be played 
   back over different consumer projects to mass upgrade between breaking changes.
 
-# Roadmap
-
-- HTML
-  - Elements
-    - rename - Planned
-  - Attributes
-    - Create - Planned
-    - Update - In Progress
-    - Delete - Planned
-- JSON (key value pairs)
-  - Create - Planned
-  - Rename - Planned
-  - Update - Planned
-
-## Modification API
-
-TBC
+If you're looking for a Javascript/Typescript focused modification library I recommend you take a 
+look at [jscodeshift](https://github.com/facebook/jscodeshift).
 
 ## See also
 
 - https://github.com/syntax-tree/unist-util-select - Select nodes based on css like selectors 
   (with limitations)
+- https://unifiedjs.com/
