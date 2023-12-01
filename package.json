@@ -2,10 +2,9 @@
   "name": "unified-code-mods",
   "version": "0.0.0",
   "type": "module",
-  "description": "## API",
-  "main": "app.js",
+  "description": "",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --recursive"
   },
   "keywords": [],
   "author": "",
@@ -19,9 +18,11 @@
     "rehype-stringify": "^9.0.3",
     "remark-html": "^15.0.1",
     "remark-parse": "^10.0.1",
-    "unified": "^10.1.1"
+    "unified": "^10.1.1",
+    "unist-util-select": "^4.0.1"
   },
   "devDependencies": {
+    "nyc": "^15.1.0",
     "ts-node": "^10.6.0",
     "typescript": "^4.6.2",
     "unist-util-visit": "^4.1.0"
