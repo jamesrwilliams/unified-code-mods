@@ -18,7 +18,8 @@
     "rehype-stringify": "^9.0.3",
     "remark-html": "^15.0.1",
     "remark-parse": "^10.0.1",
-    "unified": "^10.1.1"
+    "unified": "^10.1.1",
+    "unist-util-select": "^4.0.1"
   },
   "devDependencies": {
     "nyc": "^15.1.0",

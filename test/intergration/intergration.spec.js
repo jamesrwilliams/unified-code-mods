@@ -6,13 +6,14 @@ describe('Integration', function () {
     it('standard element', async function () {
       const inputString = `<h1 data-target="original">Hello world</h1>`;
       const modification = {
-        element: "h1",
+        element: "*",
         operation: {
           type: "properties",
           key: "data-target",
           value: "modified"
         }
       };
+      debugger;
       assert.equal(await core(inputString, modification), `<h1 data-target="${modification.operation.value}">Hello world</h1>`);
     });
     it('void element', async function () {
@@ -25,7 +26,9 @@ describe('Integration', function () {
           value: "modified"
         }
       };
-      assert.equal(await core(inputString, modification), `<link data-target="${modification.operation.value}">`);
+      const result = await core(inputString, modification);
+      console.log(result);
+      assert.equal(result, `<link data-target="${modification.operation.value}">`);
     });
     it('custom element', async function () {
       const inputString = `<jrw-custom data-target="original">Hello world</jrw-custom>`;

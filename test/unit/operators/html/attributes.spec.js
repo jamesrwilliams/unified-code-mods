@@ -1,4 +1,4 @@
-import attributeModifier from "../../../../lib/modfiers/attributes.js";
+import attributeModifier from "../../../../lib/operators/html/modifiers/attributes.js";
 import {expect} from "chai";
 import toNode from "../../../../lib/utils/generateAstNode.js";
 
